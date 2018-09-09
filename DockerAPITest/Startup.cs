@@ -30,7 +30,7 @@ namespace DockerAPITest
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "NEW2 Generate Random Data API, development 16:53", Version = "v1" });
+                c.SwaggerDoc("v1", new Info { Title = "NEW2 Generate Random Data API, development 12:23", Version = "v1" });
             });
         }
 

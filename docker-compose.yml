@@ -7,6 +7,6 @@ services:
       context: .
       dockerfile: DockerAPITest\Dockerfile
     ports:
-      - "5000${BUILD_NUMBER}:80"
+      - "50000:80"
     
     
