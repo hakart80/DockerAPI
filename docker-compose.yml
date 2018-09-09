@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   dockerapitest:
-    image: hakart/dockerapitest
+    image: hakart/dockerapitest:test-${BUILD_NUMBER}
     build:
       context: .
       dockerfile: DockerAPITest\Dockerfile
