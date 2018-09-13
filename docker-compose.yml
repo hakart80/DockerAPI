@@ -9,4 +9,8 @@ services:
     ports:
       - "50000:80"
     
-    
+  nunittest:
+    image: hakart/nunittest:test-${BUILD_NUMBER}        
+    build:
+      context: .
+      dockerfile: NUnitTest\Dockerfile
