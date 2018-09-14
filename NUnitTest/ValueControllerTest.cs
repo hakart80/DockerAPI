@@ -34,13 +34,13 @@ public class ValueControllerTest
         Assert.IsNotEmpty(values.Value);
     }
 
-    [Test]
-    public void ValuesGetById_Error()
-    {
-        var values = valuesController.Get(1);
+    //[Test]
+    //public void ValuesGetById_Error()
+    //{
+    //    var values = valuesController.Get(1);
 
-        Assert.IsNotNull(values);
-        Assert.IsNotNull(values.Value);
-        Assert.IsEmpty(values.Value);
-    }
+    //    Assert.IsNotNull(values);
+    //    Assert.IsNotNull(values.Value);
+    //    Assert.IsEmpty(values.Value);
+    //}
 }
