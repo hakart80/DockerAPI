@@ -47,7 +47,7 @@ namespace DockerAPITest
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Generate Random Data API V1, development branch 17:27");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Generate Random Data API V1, dev branch 17:27");
             });
 
             var redirectRootToSwagger = new RewriteOptions()
