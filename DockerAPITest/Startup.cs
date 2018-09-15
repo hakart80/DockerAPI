@@ -30,7 +30,7 @@ namespace DockerAPITest
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "NEW2 Generate Random Data API, 15:58", Version = "v1" });
+                c.SwaggerDoc("v1", new Info { Title = "NEW2 Generate Random Data API, dev branch 07:30", Version = "v1" });
             });
         }
 
@@ -47,7 +47,7 @@ namespace DockerAPITest
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Generate Random Data API V1, dev branch 17:27");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Generate Random Data API V1");
             });
 
             var redirectRootToSwagger = new RewriteOptions()
